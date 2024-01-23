@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="447" max="-2" attributes="0"/>
+                      <Component id="labelCreateDoctor" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="labelSpeciality" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelExperience" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelMedicalSchool" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelMedicalLicenseNumber" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="labelOfficeAddress" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelDoctorID" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelDoctorName" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="184" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="textMedicalLicenseNumber" pref="120" max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="textExperience" alignment="0" pref="120" max="32767" attributes="0"/>
+                                      <Component id="textMedicalSchool" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="textSpeciality" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="textDoctorID" max="32767" attributes="0"/>
+                                      <Component id="textOfficeAddress" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="textDoctorName" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="178" max="-2" attributes="0"/>
+                              <Component id="buttonSave" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="340" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Component id="labelCreateDoctor" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelDoctorName" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="textDoctorName" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelOfficeAddress" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="textOfficeAddress" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelDoctorID" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="textDoctorID" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="buttonSave" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelSpeciality" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="textSpeciality" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelMedicalSchool" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="textMedicalSchool" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelExperience" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="textExperience" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelMedicalLicenseNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="textMedicalLicenseNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="205" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="labelCreateDoctor">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Doctor details"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelDoctorName">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Doctor Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelMedicalSchool">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Medical School"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelOfficeAddress">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Office Address"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelDoctorID">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Doctor ID"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelSpeciality">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Speciality"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelExperience">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Experience"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelMedicalLicenseNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Medical License Number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="textDoctorName">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textDoctorNameActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="textOfficeAddress">
+    </Component>
+    <Component class="javax.swing.JTextField" name="textDoctorID">
+    </Component>
+    <Component class="javax.swing.JTextField" name="textSpeciality">
+    </Component>
+    <Component class="javax.swing.JTextField" name="textMedicalSchool">
+    </Component>
+    <Component class="javax.swing.JTextField" name="textExperience">
+    </Component>
+    <Component class="javax.swing.JTextField" name="textMedicalLicenseNumber">
+    </Component>
+    <Component class="javax.swing.JButton" name="buttonSave">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Save"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonSaveActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

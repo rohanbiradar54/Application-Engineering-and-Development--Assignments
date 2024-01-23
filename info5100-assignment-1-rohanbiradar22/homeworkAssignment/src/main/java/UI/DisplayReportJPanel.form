@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="512" max="-2" attributes="0"/>
+                      <Component id="labelDisplayReport" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+                              <Component id="dlabelPersonDetails" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="219" max="-2" attributes="0"/>
+                              <Component id="dlabelDriverDetails" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="dlabelFirstname" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="dlabelLastName" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="dlabelEmail" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="dlabelAge" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="dlabelGender" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="dlabelNationality" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="dlabelReligion" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="dlabelOccupation" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="dlabelContactNumber" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="dlabelHealthInformation" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="dlabelWeight" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="dlabelGPSLocation" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="dlabelCity" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="dlabelState" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="dlabelCountry" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="dtextState" alignment="0" pref="90" max="32767" attributes="0"/>
+                                  <Component id="dtextCity" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="dtextGPSLocation" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="dtextWeight" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="dtextHealthInformation" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="dtextContactNumber" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="dtextOccupation" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="dtextReligion" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="dtextNationality" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="dtextGender" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="dtextAge" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="dtextEmail" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="dtextLastName" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="dtextFirstName" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="dtextCountry" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="dlabelModel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="dlabelSerialNumber" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="dlabelFuelType" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="dlabelCarManufacturer" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="70" max="32767" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                              <Component id="dtextSerialNumber" alignment="0" pref="90" max="32767" attributes="0"/>
+                                              <Component id="dtextModel" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="dtextCarManufacturer" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="dtextFuelType" max="32767" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="243" max="-2" attributes="0"/>
+                                          <Component id="dtextDriverLicenseNumber" min="-2" pref="90" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="134" max="-2" attributes="0"/>
+                                      <Component id="dlabelVehicleRegistration" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="140" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="dlabelPatientName" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="dlabelPatientID" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="dlabelPrimaryDoctor" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="dlabelOnMedication" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="dlabelAllergies" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="dtextAllergies" min="-2" pref="90" max="-2" attributes="0"/>
+                                          <Component id="dtextOnMedication" min="-2" pref="90" max="-2" attributes="0"/>
+                                          <Component id="dtextPrimaryDoctor" min="-2" pref="90" max="-2" attributes="0"/>
+                                          <Component id="dtextPatientID" min="-2" pref="90" max="-2" attributes="0"/>
+                                          <Component id="dtextPatientName" min="-2" pref="90" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="dlabelDoctorDetails" min="-2" max="-2" attributes="0"/>
+                                          <Component id="dlabelPatientDetails" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="105" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="dlabelBenefits" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="dtextBenefits" min="-2" pref="90" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="dlabelDeductable" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="dtextDeductable" min="-2" pref="90" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="dlabelPremium" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="dtextPremium" min="-2" pref="90" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="dlabelCorporateID" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="dtextCorporateID" min="-2" pref="90" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="dlabelCorporateAddress" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="dtextCompanyAddress" min="-2" pref="90" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="dlabelCompanyName" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="dtextCompanyName" min="-2" pref="90" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="dlabelDoctorName" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="dlabelOfficeAddress" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="dlabelDoctorID" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="dlabelSpeciality" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="dlabelMedicalSchool" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="dlabelExperience" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="dlabelMedicalLicenseNumber" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="dtextMedicalLicenseNumber" min="-2" pref="90" max="-2" attributes="0"/>
+                                          <Component id="dtextExperience" min="-2" pref="90" max="-2" attributes="0"/>
+                                          <Component id="dtextMedicalSchool" min="-2" pref="90" max="-2" attributes="0"/>
+                                          <Component id="dtextSpeciality" min="-2" pref="90" max="-2" attributes="0"/>
+                                          <Component id="dtextDoctorID" min="-2" pref="90" max="-2" attributes="0"/>
+                                          <Component id="dtextOfficeAddress" min="-2" pref="90" max="-2" attributes="0"/>
+                                          <Component id="dtextDoctorName" min="-2" pref="90" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="dlabelInsuranceDetails" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="248" max="32767" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="305" max="-2" attributes="0"/>
+                  <Component id="dlabelDriverLicenseNumber1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="746" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+              <Component id="labelDisplayReport" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="86" max="-2" attributes="0"/>
+                              <Component id="dtextDriverLicenseNumber" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="32767" attributes="0"/>
+                              <Component id="dlabelVehicleRegistration" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="dlabelPersonDetails" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="dlabelDriverDetails" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="dlabelFirstname" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="dtextFirstName" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="dlabelLastName" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="dtextLastName" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="dlabelEmail" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="dtextEmail" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="18" pref="18" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="dlabelAge" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dtextAge" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dlabelCarManufacturer" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dtextCarManufacturer" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="dlabelPatientName" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="dtextPatientName" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="dlabelPatientID" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="dtextPatientID" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="dlabelPrimaryDoctor" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="dtextPrimaryDoctor" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="dlabelOnMedication" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="dtextOnMedication" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="dlabelPatientDetails" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="dlabelAllergies" min="-2" max="-2" attributes="0"/>
+                          <Component id="dtextAllergies" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="dlabelGender" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dtextGender" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dlabelModel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dtextModel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="dlabelNationality" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dtextNationality" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dlabelSerialNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dtextSerialNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="dlabelReligion" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dtextReligion" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dlabelFuelType" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dtextFuelType" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="dlabelOccupation" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dtextOccupation" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="dlabelContactNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dtextContactNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="dlabelHealthInformation" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dtextHealthInformation" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="dlabelWeight" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dtextWeight" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                      <Component id="dlabelDoctorDetails" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="dlabelDoctorName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dtextDoctorName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="dlabelOfficeAddress" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dtextOfficeAddress" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="dlabelDoctorID" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dtextDoctorID" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="dlabelSpeciality" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dtextSpeciality" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="dlabelMedicalSchool" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dtextMedicalSchool" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="dlabelExperience" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dtextExperience" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="dlabelMedicalLicenseNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dtextMedicalLicenseNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="dlabelGPSLocation" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="dtextGPSLocation" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="dlabelInsuranceDetails" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="dlabelCompanyName" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="dtextCompanyName" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="dlabelCorporateAddress" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dtextCompanyAddress" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dlabelCity" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dtextCity" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="dlabelCorporateID" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dtextCorporateID" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dlabelState" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dtextState" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="dlabelPremium" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dtextPremium" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dlabelCountry" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dtextCountry" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="dlabelDeductable" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dtextDeductable" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="dlabelBenefits" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dtextBenefits" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="98" max="32767" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="134" max="-2" attributes="0"/>
+                  <Component id="dlabelDriverLicenseNumber1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="635" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="labelDisplayReport">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Report"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelPersonDetails">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Person Details"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelFirstname">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="First Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelLastName">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Last Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelEmail">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="E mail"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelAge">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Age"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelGender">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Gender"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelNationality">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nationality"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelReligion">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Religion"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelOccupation">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Occupation"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelContactNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Contact Number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelHealthInformation">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Health Information"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelWeight">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Weight(lbs)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextFirstName">
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextLastName">
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextEmail">
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextAge">
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextGender">
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextNationality">
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextReligion">
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextOccupation">
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextContactNumber">
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextHealthInformation">
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextWeight">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Address Details"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelCountry">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Country"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelState">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="State"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelCity">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="City"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelGPSLocation">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="GPS Location"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextGPSLocation">
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextCity">
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextState">
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextCountry">
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelDriverDetails">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Driver Details"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelCarManufacturer">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Car Manufacturer"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextDriverLicenseNumber">
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelVehicleRegistration">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Vehicle Registration"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelDriverLicenseNumber1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Driver License Number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelModel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Model"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelSerialNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Serial Number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelFuelType">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fuel Type"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextCarManufacturer">
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextModel">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dtextModelActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextSerialNumber">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dtextSerialNumberActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextFuelType">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dtextFuelTypeActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelPatientDetails">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Patient Details"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelPatientID">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Patient ID"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelPrimaryDoctor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Primary Doctor"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelOnMedication">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="On Medication"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelAllergies">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Allergies"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelPatientName">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Patient Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextPatientName">
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextPatientID">
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextPrimaryDoctor">
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextOnMedication">
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextAllergies">
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelDoctorDetails">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="DoctorDetails"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelDoctorName">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Doctor Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelOfficeAddress">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Office Address"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelDoctorID">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Doctor ID"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelSpeciality">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Speciality"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelMedicalSchool">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Medical School"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelExperience">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Experience"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelMedicalLicenseNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Medical License Number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelInsuranceDetails">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Insurance Details"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelCompanyName">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Company Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelCorporateAddress">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Company Address"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelCorporateID">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Corporate ID"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelPremium">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Premium"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelDeductable">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Deductable"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dlabelBenefits">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Benefits"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextDoctorName">
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextOfficeAddress">
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextDoctorID">
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextSpeciality">
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextMedicalSchool">
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextExperience">
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextMedicalLicenseNumber">
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextCompanyName">
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextCompanyAddress">
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextCorporateID">
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextPremium">
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextDeductable">
+    </Component>
+    <Component class="javax.swing.JTextField" name="dtextBenefits">
+    </Component>
+  </SubComponents>
+</Form>
